@@ -79,8 +79,13 @@ Input data is received from stdin in JSON format. The top-level structure looks 
 }
 ```
 Each element is a dictionary containing the following data:
+
 `base_requests' — description of bus routes and stops.
+
 `stat_requests' — requests to the transport directory.
+
 `render_settings' — map rendering settings in the format .SVG.
+
 `routing_settings` — router settings for finding shortest routes.
+
 `serialization_settings' — data serialization/deserialization settings.
