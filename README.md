@@ -40,9 +40,9 @@ Building a project (for Visual Studio)
 . Create the `my_build` folder inside the unpacked archive and open it on the command line.
 3. Generate a Protobuf project for VS using cmake:
 `cmake ../cmake -Dprotobuf_BUILD_TESTS=OFF -DCMAKE_INSTALL_PREFIX=path\proto-21-1-src\my_build -Dprotobuf_MSVC_STATIC_RUNTIME=OFF`
-4. To build projects from the command line, create the `Debug` and `Release` folders inside the `my_build` folder and execute
-the `
-cmake --build' commands. --config Debug
+4. To build projects from the command line, create the `Debug` and `Release` folders inside the `my_build` folder and execute commands:
+```
+cmake --build . --config Debug
 cmake --install . --config Debug
 cmake --build . --config Release
 cmake --install . --config Release
