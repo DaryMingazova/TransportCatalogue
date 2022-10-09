@@ -69,7 +69,7 @@ Input data format
 ----------------
 
 Input data is received from stdin in JSON format. The top-level structure looks like this:
-``
+```
 {
 "base_requests": [ ... ],
 "render_settings": { ... },
